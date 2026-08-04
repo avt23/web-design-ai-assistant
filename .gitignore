@@ -1,0 +1,43 @@
+# Секреты и окружение
+.env
+.env.*
+
+# Python venv
+.venv/
+
+# Node.js
+node_modules/
+.opencode/node_modules/
+
+# Логи
+*.log
+opencode.log
+_tasks/*/tmp/*.log
+
+# Базы данных
+*.db
+*.db-journal
+
+# Временные файлы задач
+_tasks/*/tmp/
+
+# Системный мусор Windows
+nul
+Thumbs.db
+Desktop.ini
+
+# Системный мусор macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Кэш и tmp
+tmp/
+.cache/
+
+# Скомпилированные файлы Figma (мусор от экспорта)
+_tasks/*/result/*.canvas
+_tasks/*/result/*.base
+_tasks/*/result/Без названия*
